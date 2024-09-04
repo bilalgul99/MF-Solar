@@ -1,7 +1,7 @@
 const ErrorHandler = require("../utils/ErrorHandler");
 const catchAsyncErrors = require("./asyncErrors");
 const jwt = require('jsonwebtoken');
-const User = require('../models/userModel');
+const User = require('../models/UserModel');
 
 
 const AuthenticateUser = catchAsyncErrors(async (req, res, next) => {
