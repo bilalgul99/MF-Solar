@@ -1,4 +1,4 @@
-const SolarInstallment = require('../models/SolarinstallmentModelarinstallmentModel');
+const SolarInstallment = require('../models/SolarinstallmentModel');
 const ErrorHandler = require('../utils/ErrorHandler');
 const catchAsyncErrors = require('../middleware/asyncErrors');
 
